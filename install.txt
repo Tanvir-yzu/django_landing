@@ -1,0 +1,13 @@
+server 01 :
+python manage.py runserver
+server 02 :
+python manage.py tailwind start
+admin : 
+tanvir
+123456
+venv:
+.venv\Scripts\activate
+
+python manage.py migrate
+
+python manage.py createsuperuser

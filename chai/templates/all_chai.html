@@ -1,0 +1,25 @@
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    {% tailwind_css %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <div
+      class="bg-gray-100 min-h-screen flex flex-col justify-center items-center"
+    >
+      <h1 class="text-4xl font-bold mb-4">Welcome to our Landing Page</h1>
+      <p class="text-lg text-gray-600 mb-8">
+        We have some amazing products for you!
+      </p>
+      <a
+        href="#"
+        class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+        >Shop Now</a
+      >
+    </div>
+  </body>
+</html>
